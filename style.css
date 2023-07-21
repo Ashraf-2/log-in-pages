@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* height: ; */
+    background-image: url("./assets/pexels-kelly-2519374.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center ;
+    background-attachment:fixed;
+
+}
+.login-box{
+    /* width: 7rem; */
+    /* border: 2px solid salmon; */
+    /* margin: 40px; */
+    padding: 100px;
+    width: 300px;
+    position: absolute;
+    /* top: 200px;
+    left: 500px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* border: 2px solid red; */
+}
+.login-box:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: black 0px 0px 15px;
+}
+.login-box h1{
+    /* float: left; */
+    font-size: 40px;
+    border-bottom: 5px solid chartreuse;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    /* color:#e00119; */
+    color:beige;
+}
+.fa-solid{
+    color: chartreuse;
+}
+.textbox{
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px;
+    border-bottom: 1px solid chartreuse;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content:last baseline; */
+}
+
+.textbox input{
+    width: 80%;
+    background: none;
+    border: none;
+    color:bisque;
+    font-size: 18px;
+    float: left;
+    /* margin: 0px 10px; */
+}
+.btn{
+    /* text-align: center; */
+    width: 100%;
+    background: none;
+    border: 2px solid chartreuse;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0px;
+}
